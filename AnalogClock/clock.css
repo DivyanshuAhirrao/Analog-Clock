@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(48, 25, 25);
+}
+
+#clock-container {
+    position: relative;
+    background-color: rgb(110, 138, 138, 0.75);
+    height: 40vw;
+    width: 40vw;
+    margin: auto;
+    background: url(./—Pngtree—clock\ face\ no\ hands\ gold_9017404.png);
+    background-size: 100%;
+}
+.center {
+    background-color: rgb(155, 232, 205);
+    height: 0.8vw;
+    width: 0.8vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 48.8%;
+    left: 49%;
+}
+#hour, #minute, #second {
+   position: absolute;
+   background-color: azure;
+   border-radius: 15%;
+
+}
+
+#hour {
+    width: 0.8%;
+    height: 21%;
+    top: 28.45%;
+    left: 49.6%;
+    opacity: 0.8;
+    border-radius: 10%;
+    border: 1px solid rgb(79, 170, 190);
+    transform-origin: bottom;
+    
+}
+#minute{
+    width: 0.8%;
+    height: 26%;
+    top: 23.5%;
+    left: 49.6%;
+    opacity: 0.8;
+    border: 1px solid rgb(57, 118, 132);
+    transform-origin: bottom;
+}
+#second{
+    width: 0.8%;
+    height: 31%;
+    top: 18.6%;
+    left: 49.6%;
+    opacity: 0.8;
+    transform-origin: bottom;
+
+}
